@@ -80,6 +80,12 @@ p {
     margin-left: 20px;
 }
 
+@media screen and (max-width: 959px) {
+    .content {
+      text-align: center;
+    }
+}
+
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -91,10 +97,10 @@ p {
     background-color: #2589bd;
 }
 /* Added to improve visibility when resizing */
-@media screen and (max-width: 817px) {
+@media screen and (max-width: 959px) {
     .benefits {
         float: left;
-        width: 80%;
+        width: 75%;
         height: auto;
         display: inline-block;
         margin-left: 20px;
@@ -105,6 +111,7 @@ p {
 .benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
+    text-align: center;
 }
 
 .benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
@@ -127,8 +134,21 @@ p {
     color: #ffffff;
 }
 
+/* Added for content resizing visibility */
+@media screen and (max-width: 959px) {
+    .search-engine-optimization, .online-reputation-management, .social-media-marketing {
+        width: fit-content;
+        height: fit-content;
+        flex-wrap: wrap;
+    }
+    .search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
+       display: none;
+    }
+}
+
 .search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
     max-height: 200px;
+    text-align: center;
 }
 
 .search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
