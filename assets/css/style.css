@@ -46,6 +46,11 @@ header ul li {
 a {
     color: #ffffff;
     text-decoration: none;
+
+}
+a:hover {
+    color: gainsboro;
+    text-decoration: none;
 }
 
 p {

@@ -14,10 +14,7 @@ No installation required. Follow link to [https://wiilki.github.io/mod1-challeng
 
 Navigate to homepage. Click tabs at top of page to navigate.
 
-```md
 ![screenshot](assets/images/mod1.png)
-```
-
 
 ## Credits
 
